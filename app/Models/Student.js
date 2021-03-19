@@ -10,7 +10,7 @@ class Student extends Model {
 
   messages() {
     return this.belongsToMany("App/Models/Message").pivotModel(
-      "App/Models/MessageStudant"
+      "App/Models/MessageStudent"
     );
   }
 }
